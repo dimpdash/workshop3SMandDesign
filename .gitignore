@@ -1,9 +1,9 @@
-.project
-.iml
-.xml
-.settings
-.classpath
-bin
-.class
-
+*.project
+*.iml
+*.xml
+*.settings
+*.classpath
+/bin
+*.class
+.idea
 
