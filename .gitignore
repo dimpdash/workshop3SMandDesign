@@ -2,9 +2,11 @@
 *.iml
 *.xml
 *.settings
+.settings/*
 *.classpath
 bin/*
 out/*
 *.class
-.idea
+.idea/*
+
 
