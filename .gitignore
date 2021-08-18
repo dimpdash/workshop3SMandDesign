@@ -2,8 +2,9 @@
 *.iml
 *.xml
 *.settings
-.settings/*
+*/.settings/*
 *.classpath
+*/.classpath
 bin/*
 out/*
 *.class
