@@ -6,7 +6,7 @@ import java.util.HashMap;
  * A class that represents all validation errors for a given
  * file, storing the errors as a key value mapping
  */
-class ValidationError {
+public class ValidationError {
 
     /* A map of error type to error message */
     public HashMap<String, String> errors;

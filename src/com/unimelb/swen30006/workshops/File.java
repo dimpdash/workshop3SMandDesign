@@ -1,7 +1,7 @@
 package com.unimelb.swen30006.workshops;
 
-// Sample private file class to be replaced by your implementaiton
-class File {
+// Sample private file class to be replaced by your implementation
+public class File {
     public String fileType(){
         double num = Math.random();
         if(num<0.5){
