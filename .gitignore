@@ -3,7 +3,8 @@
 *.xml
 *.settings
 *.classpath
-/bin
+bin/*
+out/*
 *.class
 .idea
 
