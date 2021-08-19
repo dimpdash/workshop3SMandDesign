@@ -1,2 +1,14 @@
 .vscode
-**.class
+*.project
+*.iml
+*.xml
+*.settings
+*/.settings/*
+*.classpath
+*/.classpath
+bin/*
+out/*
+*.class
+.idea/*
+
+
