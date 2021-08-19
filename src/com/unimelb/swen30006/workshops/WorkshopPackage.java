@@ -6,7 +6,8 @@ public class WorkshopPackage {
     
     public static void main(String[] args){
         System.out.println("Creating Staff");
-        Staff staff1 = new Staff("Melbourne Australia", new DateFormat().parse("1/1/1999"), "Michael", ["lecture", "research"], "1234");
+        String[] roles = {"lecture", "research"};
+        Staff staff1 = new Staff("Melbourne Australia", new DateFormat().parse("1/1/1999"), "Michael", roles, "1234");
         Student student1 = new Student("Melbourne Australia", new DateFormat().parse("1/1/2015"), "Jenny", "dancer@hotmail.com", "996308");
         Student student2 = new Student("Melbourne Sydney", new DateFormat().parse("1/1/2014"), "Benny", "baker@hotmail.com", "996309");
 
@@ -17,7 +18,7 @@ public class WorkshopPackage {
         //TODO cannot specify what the assignment is
         
         //Student submit assignment
-        
+
 
 
         //Delete assignment
